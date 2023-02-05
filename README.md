@@ -41,23 +41,23 @@ Run the main ```etf_analyzer.ipynb``` in Jupyter Lab.
 
 In the **first part**, we analyze the daily returns of one of the stocks (PYPL). We first extract the data with a SQL query, then analyze the Pandas DataFrame and finally plot the daily and cumulative returns for the period considered:
 
-<img src="Images/PYPL_returns.png" height=50% width=50%>
+<img src="Images/PYPL_returns.png" height=60% width=60%>
 
-**Secondly**, we refine the query by filtering the datapoints where prices have been above a certain level, and also which days have registered the highest dayly_returns: 
+**Secondly**, we refine the query by filtering the datapoints where prices have been above a certain level, and also which days have registered the highest daily_returns: 
 
 <img src="Images/highest_returns.png" height=10% width=10%>
 
 **Third**, we join all the individual stocks data tables by using SQL joins, and we average the daily_returns (by assuming that this ETF contains equally weighted returns). Then we analyze the annualized Portfolio returns and plot the cumulative returns using hvplot:
 
-<img src="Images/ETF_returns.png" height=50% width=50%>
+<img src="Images/ETF_returns.png" height=60% width=60%>
 
-**Finally**, we use the command ```!voila .ipynb``` in the Jupyter Notebook to deploy it locally as a wed:
+**Finally**, we use the command ```!voila .ipynb``` in the Jupyter Notebook to deploy it locally as a web:
 
-<img src="Images/voila_local_host.png" height=50% width=50%>
+<img src="Images/voila_local_host.png" height=60% width=60%>
 
 Note that it also works running from the console:
 
-<img src="Images/voila_analyzer_bash.png" height=50% width=50%>
+<img src="Images/voila_analyzer_bash.png" height=60% width=60%>
 
 ---
 
